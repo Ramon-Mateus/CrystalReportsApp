@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Página de Relatórios";
+}
+
+<h2>Gerar Relatórios</h2>
+<p>Use os botões abaixo para exportar os relatórios em PDF.</p>
+
+<hr />
+
+<h3>Teste de Relatório Estático</h3>
+<p>Este teste gera um PDF simples com texto fixo para verificar a integração.</p>
+@Html.ActionLink("Gerar PDF Estático", "ExportarPDFEstatico", "Relatorio", null, new { @class = "btn btn-success" })
+
+<br />
+<br />
+
+<h3>Relatório com Dados (em memória)</h3>
+<p>Este é o relatório original que lista os produtos (se a fonte de dados estiver funcionando).</p>
+@Html.ActionLink("Gerar PDF com Dados", "ExportarProdutos", "Relatorio", null, new { @class = "btn btn-primary" })
