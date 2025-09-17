@@ -4,13 +4,11 @@ Este é um projeto para demonstrar a integração de relatórios dinâmicos com 
 
 ### Funcionalidades
 
-* Geração de relatórios a partir de listas de objetos em C# (`List<T>`).
-* Conexão direta com banco de dados SQL Server, usando **Tabelas** e **Views**.
-* Implementação de **filtros dinâmicos**, tanto na aplicação (com LINQ) quanto no banco (com Parâmetros).
+* Geração de relatórios estáticos e a partir da consulta de **Tabelas** no SQL Server.
 
 ### Tecnologias
 
-* C# e .NET Framework 4.8
+* C# e .NET Framework 4.7.2
 * ASP.NET MVC 5
 * SQL Server
 * SAP Crystal Reports for VS
